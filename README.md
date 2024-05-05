@@ -22,7 +22,7 @@ The system consists of a transmitter laptop with a speaker and a receiver laptop
 
 ![System Model](system_model.png)
 
-### Transmitter Side
+## Transmitter Side
 
 In the transmitter stage, a single byte of data undergoes conversion to the UART protocol, introducing a distinctive communication structure. The UART protocol involves framing the data within a start bit (logic 0) and a stop bit (logic 1), encased by an idle state of 1. Ten iterations of this packet formation are sequentially transmitted, ensuring a robust and repeatable data transmission process.
 
@@ -30,6 +30,7 @@ Following the UART protocol, the data undergoes modulation into Amplitude Shift 
 
 The modulated signals are then efficiently transmitted via a speaker, marking a comprehensive evaluation of the transmission process at distinct audio frequencies.
 
+###Python Code
 ```python
 from curses import baudrate
 import numpy as np
@@ -107,7 +108,7 @@ if __name__ == "__main__":
     # Plot the waveform interactively
     plot_waveform(np.linspace(0, len(continuous_signal) / sample_rate, len(continuous_signal)), continuous_signal)
 ```
-### Receiver
+## Receiver
 
 On the receiver side, the system is designed to capture the transmitted audio signals. The captured audio is then subjected to signal processing, and the raw data is plotted to visualize the Amplitude Shift Keying (ASK) modulation patterns.
 
