@@ -30,7 +30,7 @@ Following the UART protocol, the data undergoes modulation into Amplitude Shift 
 
 The modulated signals are then efficiently transmitted via a speaker, marking a comprehensive evaluation of the transmission process at distinct audio frequencies.
 
-### Python Code
+### Python Code for transmission
 
 ```python
 from curses import baudrate
