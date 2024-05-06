@@ -238,7 +238,7 @@ The LPF serves several crucial purposes:
   
 - **Signal Reconstruction:** The LPF ensures that the output is a smooth, continuous envelope devoid of rapid oscillations, aiding in signal reconstruction.
 
-### Relational Operator/ Comparator
+### 4. Relational Operator/ Comparator
 
 Following the Low-Pass Filter (LPF) stage, the envelope signal still exhibits variations between high and low levels.
 
