@@ -20,7 +20,7 @@ In this project, we design and implement a UART-based communication system, allo
 
 The system consists of a transmitter laptop with a speaker and a receiver laptop with a microphone, as shown in the following block diagram:
 
-![System Model](<img width="1082" alt="Block Dia" src="https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/03c511ce-34c8-4976-95ab-dc36b053d9a8">)
+![Block Dia](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/03c511ce-34c8-4976-95ab-dc36b053d9a8)
 
 ## Transmitter Side
 
