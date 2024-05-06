@@ -197,7 +197,7 @@ plt.show()
 
 ## Reception Through MATLAB Simulink
 
-We try and demodulate the recieved signal through matlab simulink by creating a model of demodulation process.
+We could alternatively try and demodulate the recieved signal through matlab simulink by creating a model of demodulation process.
 For creating this model we add required components from library browser. The following are key components used for this model: 
 
 ### 1. Bandpass Filter
