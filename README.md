@@ -255,8 +255,6 @@ Here's a breakdown of how the comparator functions:
 This logic output precisely corresponds to the original binary data encoded within the OOK signal.
 
 
+### Simulink Model
+![assets](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/fd35a8e1-8fd5-452f-a8d8-08d89e549429)
 
-
-## Installation and Usage
-
-1. Clone the repository:
