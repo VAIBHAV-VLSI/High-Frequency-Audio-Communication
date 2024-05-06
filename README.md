@@ -224,6 +224,35 @@ The squaring circuit operates by computing the square of the instantaneous ampli
 The squared signal effectively removes the negative half of the waveform, resulting in a positive envelope.
 
 
+### 3. Low Pass Filter
+
+Following the squaring process, the signal retains high-frequency components from modulation and noise.
+
+To refine the signal and extract the envelope, a Low-Pass Filter (LPF) is employed.
+
+The LPF serves several crucial purposes:
+
+- **Noise Reduction:** High-frequency noise components present in the squared signal are attenuated by the LPF.
+  
+- **Envelope Extraction:** By allowing only slowly varying components to pass through, the LPF facilitates the extraction of the envelope, which represents the original binary data.
+  
+- **Signal Reconstruction:** The LPF ensures that the output is a smooth, continuous envelope devoid of rapid oscillations, aiding in signal reconstruction.
+
+### Relational Operator/ Comparator
+
+Following the Low-Pass Filter (LPF) stage, the envelope signal still exhibits variations between high and low levels.
+
+To convert this analog envelope into a digital signal (comprising 1s and 0s), a comparator plays a pivotal role.
+
+Here's a breakdown of how the comparator functions:
+
+- **Comparison with Threshold:** The comparator compares the envelope signal with a fixed threshold voltage.
+
+- **Logic Output Generation:** Based on the comparison result:
+  - If the envelope signal surpasses the threshold, the comparator generates a logic high (1) output.
+  - Conversely, if the envelope signal falls below the threshold, the comparator produces a logic low (0) output.
+
+This logic output precisely corresponds to the original binary data encoded within the OOK signal.
 
 
 
