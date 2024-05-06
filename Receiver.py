@@ -10,9 +10,9 @@ def record_audio(duration, fs):
     return audio_data[:, 0]
 
 # Sampling frequency
-fs = 44100  # You can adjust this according to your needs
+fs = 44100  
 # Duration of recording in seconds
-duration = 18  # Change this to the desired duration
+duration = 18  
 
 # Record audio
 audio_data = record_audio(duration, fs)
