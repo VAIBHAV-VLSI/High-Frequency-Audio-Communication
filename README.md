@@ -195,6 +195,8 @@ plt.show()
 ![Recieved packet_10](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/d9ed9fb8-5ecf-4d63-b647-73396fb1fc42)
 
 
+### Reception Through MATLAB Simulink
+
 
 
 
