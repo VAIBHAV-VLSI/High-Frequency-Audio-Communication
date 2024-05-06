@@ -185,6 +185,14 @@ plt.tight_layout()
 plt.show()
 ```
 
+### RESULTS
+![Recieved packet_10](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/d9ed9fb8-5ecf-4d63-b647-73396fb1fc42)
+
+![Recieved Packet_15](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/b34a954b-7165-4eff-b717-d036fcdd869a)
+
+![Recieved Packet_18](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/a595f6f7-dc98-4879-8bab-a353db25ff3f)
+
+
 
 ## Installation and Usage
 
