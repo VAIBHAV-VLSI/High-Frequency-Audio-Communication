@@ -195,7 +195,35 @@ plt.show()
 ![Recieved packet_10](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/d9ed9fb8-5ecf-4d63-b647-73396fb1fc42)
 
 
-### Reception Through MATLAB Simulink
+## Reception Through MATLAB Simulink
+
+We try and demodulate the recieved signal through matlab simulink by creating a model of demodulation process.
+For creating this model we add required components from library browser. The following are key components used for this model: 
+
+### Bandpass Filter
+
+The bandpass filter serves crucial functions during On-Off Keying (OOK) demodulation:
+
+- **Frequency Selection:** It selectively allows only the desired frequency band (around the carrier frequency) to pass through.
+  
+- **Noise Rejection:** By attenuating frequencies outside the desired band, the bandpass filter reduces noise and interference.
+  
+- **Signal Enhancement:** Isolating the OOK signal, the filter improves the signal-to-noise ratio (SNR), thereby enhancing data recovery.
+  
+- **Prevents Aliasing:** In scenarios where the received signal is sampled at a lower rate, the bandpass filter removes high-frequency components, preventing aliasing.
+
+
+### Squaring Circuit
+
+Following the bandpass filter, the OOK signal retains variations in amplitude resulting from modulation.
+
+To extract the envelope (or magnitude) of the OOK signal, a squaring circuit is employed.
+
+The squaring circuit operates by computing the square of the instantaneous amplitude of the filtered signal.
+
+The squared signal effectively removes the negative half of the waveform, resulting in a positive envelope.
+
+
 
 
 
