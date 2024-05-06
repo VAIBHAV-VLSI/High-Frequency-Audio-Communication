@@ -20,7 +20,7 @@ In this project, we design and implement a UART-based communication system, allo
 
 The system consists of a transmitter laptop with a speaker and a receiver laptop with a microphone, as shown in the following block diagram:
 
-![System Model](system_model.png)
+![System Model](<img width="1082" alt="Block Dia" src="https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/03c511ce-34c8-4976-95ab-dc36b053d9a8">)
 
 ## Transmitter Side
 
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     bits = '10101010'
     bit_duration = 0.1  # Set bit duration to 0.1 seconds
     sample_rate = 44100  # audio sample rate
-    frequency = 18000  # Change modulation frequency to 10 kHz
+    frequency = 10000  # modulation frequency of 10 kHz
     amplitude_0 = 0  # amplitude for bit '0' (Logic-Low)
     amplitude_1 = 1.2  # amplitude for bit '1' (Logic-High)
 
@@ -109,6 +109,8 @@ if __name__ == "__main__":
     # Plot the waveform interactively
     plot_waveform(np.linspace(0, len(continuous_signal) / sample_rate, len(continuous_signal)), continuous_signal)
 ```
+
+
 ## Receiver
 
 On the receiver side, the system is designed to capture the transmitted audio signals. The captured audio is then subjected to signal processing, and the raw data is plotted to visualize the Amplitude Shift Keying (ASK) modulation patterns.
