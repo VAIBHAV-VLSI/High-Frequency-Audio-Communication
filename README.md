@@ -110,6 +110,11 @@ if __name__ == "__main__":
     plot_waveform(np.linspace(0, len(continuous_signal) / sample_rate, len(continuous_signal)), continuous_signal)
 ```
 
+### OBTAINED PLOT
+![Transmitted packets](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/717c0259-4cb8-4dfe-a547-0d02bb93d21f)
+
+
+
 
 ## Receiver
 
