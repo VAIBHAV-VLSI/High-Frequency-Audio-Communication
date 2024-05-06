@@ -258,3 +258,14 @@ This logic output precisely corresponds to the original binary data encoded with
 ### Simulink Model
 ![assets](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/fd35a8e1-8fd5-452f-a8d8-08d89e549429)
 
+
+## References
+https://icact.org/upload/2011/0103/20110103_finalpaper.pdf
+
+https://link.springer.com/article/10.1007/s10470-009-9379-6
+
+https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cds.2018.5458
+
+https://icact.org/upload/2011/0103/20110103_finalpaper.pdf
+
+
