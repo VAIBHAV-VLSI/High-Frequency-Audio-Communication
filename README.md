@@ -200,7 +200,7 @@ plt.show()
 We try and demodulate the recieved signal through matlab simulink by creating a model of demodulation process.
 For creating this model we add required components from library browser. The following are key components used for this model: 
 
-### Bandpass Filter
+### 1. Bandpass Filter
 
 The bandpass filter serves crucial functions during On-Off Keying (OOK) demodulation:
 
@@ -213,7 +213,7 @@ The bandpass filter serves crucial functions during On-Off Keying (OOK) demodula
 - **Prevents Aliasing:** In scenarios where the received signal is sampled at a lower rate, the bandpass filter removes high-frequency components, preventing aliasing.
 
 
-### Squaring Circuit
+### 2. Squaring Circuit
 
 Following the bandpass filter, the OOK signal retains variations in amplitude resulting from modulation.
 
