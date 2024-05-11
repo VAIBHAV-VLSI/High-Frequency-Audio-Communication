@@ -212,6 +212,8 @@ The bandpass filter serves crucial functions during On-Off Keying (OOK) demodula
   
 - **Prevents Aliasing:** In scenarios where the received signal is sampled at a lower rate, the bandpass filter removes high-frequency components, preventing aliasing.
 
+  ### OUTPUT OF BPF:
+![OOK_1](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/dcae6238-c446-43fd-a1df-afbe9880a788)
 
 ### 2. Squaring Circuit
 
@@ -223,6 +225,8 @@ The squaring circuit operates by computing the square of the instantaneous ampli
 
 The squared signal effectively removes the negative half of the waveform, resulting in a positive envelope.
 
+  ### OUTPUT OF Squaring Circuit:
+![squaring_circuit](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/140d6283-0381-4308-98f7-b4c81649fe05)
 
 ### 3. Low Pass Filter
 
@@ -237,6 +241,9 @@ The LPF serves several crucial purposes:
 - **Envelope Extraction:** By allowing only slowly varying components to pass through, the LPF facilitates the extraction of the envelope, which represents the original binary data.
   
 - **Signal Reconstruction:** The LPF ensures that the output is a smooth, continuous envelope devoid of rapid oscillations, aiding in signal reconstruction.
+
+    ### OUTPUT OF Squaring Circuit:
+![LPF](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/d779da18-66ac-4e98-9292-dd368ea4f7cf)
 
 ### 4. Relational Operator/ Comparator
 
@@ -253,11 +260,12 @@ Here's a breakdown of how the comparator functions:
   - Conversely, if the envelope signal falls below the threshold, the comparator produces a logic low (0) output.
 
 This logic output precisely corresponds to the original binary data encoded within the OOK signal.
+### OUTPUT of Relational Operator/ Comparator:
+![demodulated](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/786b7d88-dbaa-49fb-8f42-6d961590f013)
 
 
 ### Simulink Model
-![assets](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/fd35a8e1-8fd5-452f-a8d8-08d89e549429)
-
+![simulink_model](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/4190c01e-c086-4cb0-b9a3-fe49502e299f)
 
 ## References
 https://icact.org/upload/2011/0103/20110103_finalpaper.pdf
