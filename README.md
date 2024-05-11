@@ -198,7 +198,14 @@ plt.show()
 ## Reception Through MATLAB Simulink
 
 We could alternatively try and demodulate the recieved signal through matlab simulink by creating a model of demodulation process.
-For creating this model we add required components from library browser. The following are key components used for this model: 
+For creating this model we add required components from library browser. 
+
+
+### Simulink Model
+![simulink_model](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/4190c01e-c086-4cb0-b9a3-fe49502e299f)
+
+
+The following are key components used for this model: 
 
 ### 1. Bandpass Filter
 
@@ -242,7 +249,7 @@ The LPF serves several crucial purposes:
   
 - **Signal Reconstruction:** The LPF ensures that the output is a smooth, continuous envelope devoid of rapid oscillations, aiding in signal reconstruction.
 
-    ### OUTPUT OF Squaring Circuit:
+    ### OUTPUT OF Low Pass Filer:
 ![LPF](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/d779da18-66ac-4e98-9292-dd368ea4f7cf)
 
 ### 4. Relational Operator/ Comparator
@@ -264,8 +271,6 @@ This logic output precisely corresponds to the original binary data encoded with
 ![demodulated](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/786b7d88-dbaa-49fb-8f42-6d961590f013)
 
 
-### Simulink Model
-![simulink_model](https://github.com/VAIBHAV-VLSI/High-Frequency-Audio-Communication/assets/140998525/4190c01e-c086-4cb0-b9a3-fe49502e299f)
 
 ## References
 https://icact.org/upload/2011/0103/20110103_finalpaper.pdf
